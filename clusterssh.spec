@@ -12,6 +12,7 @@ Source0:	http://dl.sourceforge.net/clusterssh/%{name}-%{version}.tar.gz
 URL:		http://sourceforge.net/projects/clusterssh
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-X11-Protocol
+Suggests:	xterm
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
