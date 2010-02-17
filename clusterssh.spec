@@ -3,16 +3,16 @@
 #
 Summary:	Cluster SSH - Cluster Admin Via SSH
 Name:		clusterssh
-Version:	3.22
-Release:	0.3
+Version:	3.28
+Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/clusterssh/%{name}-%{version}.tar.gz
-# Source0-md5:	f568c3ade1e586250ff22045a11eff37
+# Source0-md5:	11e012329d2c62e1f7b17f3ac517769a
 URL:		http://sourceforge.net/projects/clusterssh
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-X11-Protocol
-Suggests:	xterm
+Requires:	xterm
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,7 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README THANKS
-
 %attr(755,root,root) %{_bindir}/cssh
 %{_mandir}/man1/cssh.*
 %{_desktopdir}/clusterssh.desktop
