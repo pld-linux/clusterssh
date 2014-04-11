@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/clusterssh/%{name}-%{version}.tar.gz
 # Source0-md5:	11e012329d2c62e1f7b17f3ac517769a
 URL:		http://sourceforge.net/projects/clusterssh
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-Tk
 Requires:	perl-X11-Protocol
 Requires:	xterm
 BuildArch:	noarch
