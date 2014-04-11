@@ -4,7 +4,7 @@
 Summary:	Cluster SSH - Cluster Admin Via SSH
 Name:		clusterssh
 Version:	3.28
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/clusterssh/%{name}-%{version}.tar.gz
@@ -14,6 +14,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Tk
 Requires:	perl-X11-Protocol
 Requires:	xterm
+Suggests:	perl-XML-Simple
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
