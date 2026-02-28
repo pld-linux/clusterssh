@@ -4,7 +4,7 @@
 Summary:	Cluster SSH - Cluster Admin Via SSH
 Name:		clusterssh
 Version:	3.28
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/clusterssh/%{name}-%{version}.tar.gz
